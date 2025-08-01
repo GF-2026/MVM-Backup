@@ -82,35 +82,36 @@ place-items: center;
   width-max:100%;
   padding-botomm:56.25%;
 }
-                            .carrusel {
-  width: 100%;
-  height: 100%;
-  display: none;
-  object-fit: contain;
-  background-color: black;
-                            }
-                        
-                            .carrusel img {
-                              width: 100%;
-                              height: 100%;
-                              display: none;
-                              object-fit: cover;
-                            }
-                        
-                            .carrusel img.activa {
-                              display: block;
-                            }
-                        
-                            .botones {
-                              text-align: center;
-                              margin-top: 10px;
-                            }
-                        
-                            .botones button {
-                              padding: 10px 20px;
-                              margin: 0 10px;
-                              font-size: 16px;
-                            }
+                      
+    .carrusel {
+      width: 100%;
+      max-width: 500px; /* Límite en pantallas grandes */
+      aspect-ratio: 4 / 3; /* Mantiene proporción cuadrada o 4:3 */
+      position: relative;
+      overflow: hidden;
+      margin: auto;
+    }
+
+    .carrusel img {
+      width: 100%;
+      height: 100%;
+      display: none;
+      object-fit: cover;
+    }
+
+    .carrusel img.activa {
+      display: block;
+    }
+
+    .botones {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .botones button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
 /*
 <iframe src="https://www.youtube.com/embed/zj0u8LiNSVo" width-="100%" height="315" style="border:none width-="100%";"></iframe>
 <iframe src=src="https://www.youtube.com/embed/E_UFwQ6lBpU" width="100%" height="315" style="border:none width-="100%";"></iframe>
