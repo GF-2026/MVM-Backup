@@ -140,8 +140,8 @@ place-items: center;
   }
 
   .botones button {
-    width: 100%;
-    max-width: 300px;
+    width: 10%;
+    max-width: 30px;
     font-size: 0.9rem;
     padding: 0.6rem 1rem;
   }
