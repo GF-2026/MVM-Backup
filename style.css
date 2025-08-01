@@ -103,7 +103,7 @@ place-items: center;
 .carrusel img.activa {
   display: block;
 }
-.botones {
+/*.botones {
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -145,7 +145,7 @@ place-items: center;
     font-size: 0.9rem;
     padding: 0.6rem 1rem;
   }
-}
+}*/
 
 
 
