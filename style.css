@@ -84,9 +84,9 @@ place-items: center;
 }
                       
     .carrusel {
-      width: 100%;
+      width: 90%;
       max-width: 500px; /* Límite en pantallas grandes */
-      aspect-ratio: 4 / 3; /* Mantiene proporción cuadrada o 4:3 */
+      aspect-ratio: 800px; /* Mantiene proporción cuadrada o 4:3 */
       position: relative;
       overflow: hidden;
       margin: auto;
