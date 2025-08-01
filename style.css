@@ -103,13 +103,13 @@ place-items: center;
 .carrusel img.activa {
   display: block;
 }
-/*.botones {
+.botones {
   display: flex;
   justify-content: center;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: 2rem;
+  margin-top: 2rem;
 }
-
+/*
 .botones button {
   background-color: #2ad257;
   color: white;
