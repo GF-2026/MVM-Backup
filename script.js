@@ -27,22 +27,23 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
-                            let indice = 0;
-                            var imagenes = document.querySelectorAll('.carrusel img');
-                        
-                            function mostrarImagen(i) {
-                              imagenes.forEach((img, index) => {
-                                img.classList.toggle('activa', index === i);
-                              });
-                            }
-                        
-                            function siguiente() {
-                              indice = (indice + 1) % imagenes.length;
-                              mostrarImagen(indice);
-                            }
-                        
-                            function anterior() {
-                              indice = (indice - 1 + imagenes.length) % imagenes.length;
-                              mostrarImagen(indice);
-                            };
+    let indice = 0;
+    const imagenes = document.querySelectorAll('.carrusel img');
+
+    function mostrarImagen(i) {
+      imagenes.forEach((img, index) => {
+        img.classList.toggle('activa', index === i);
+      });
+    }
+
+    function siguiente() {
+      indice = (indice + 1) % imagenes.length;
+      mostrarImagen(indice);
+    }
+
+    function anterior() {
+      indice = (indice - 1 + imagenes.length) % imagenes.length;
+      mostrarImagen(indice);
+    }
+  </script>
 
