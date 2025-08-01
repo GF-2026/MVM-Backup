@@ -93,10 +93,11 @@ place-items: center;
     }
 
     .carrusel img {
-      width: 100%;
+      width: auto;
       height: 100%;
       display: none;
-      object-fit: cover;
+      object-fit: contain;
+      Background-color: black;
     }
 
     .carrusel img.activa {
